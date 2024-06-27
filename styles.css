@@ -1,0 +1,198 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #e1e1e1;
+}
+
+.registration-page, .login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.registration-page h2, .login-page h2 {
+    margin-bottom: 20px;
+}
+
+.registration-page form, .login-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.registration-page label, .login-page label {
+    margin-bottom: 5px;
+}
+
+.registration-page input, .login-page input {
+    margin-bottom: 15px;
+    padding: 8px;
+    width: 200px;
+}
+
+.registration-page button, .login-page button {
+    padding: 10px 20px;
+    margin: 0 auto; 
+    display: block;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: gray; 
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.site-title {
+    margin: 10px 0;
+    font-size: 24px;
+    color: black;
+}
+
+.nav-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black; 
+    font-size: 20px;
+    padding: 10px 15px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.content-section {
+    padding: 20px;
+    display: none;
+}
+
+.anchor-link a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.anchor-link a:hover {
+    background-color: rgb(57, 161, 206);
+}
+
+.anchor-link {
+    text-align: center;
+    margin-top: auto; /* Ensures it sticks to the bottom of the content */
+}
+
+
+.footer-section {
+    background-color: gray;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    display: none;
+}
+
+/* Show footer on specific pages */
+#index-content, .footer-section {
+    display: block;
+}
+
+#home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center the items vertically */
+    text-align: center; /* Ensure text alignment is centered */
+}
+
+.home-image, .shop-image, .about-image, .services-image, .contact-image, .women-shop-image, .men-shop-image, .sell-image,
+.endorsement-image, .promo-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.women-shop-link {
+    text-align: center;
+    margin-top: auto; /* Ensures it sticks to the bottom of the content */
+}
+
+.men-shop-link a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.men-shop-link a:hover {
+    background-color: rgb(57, 161, 206);
+}
+
+.men-shop-link {
+    text-align: center;
+    margin-top: auto; /* Ensures it sticks to the bottom of the content */
+}
+
+.women-shop-link a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.women-shop-link a:hover {
+    background-color: rgb(57, 161, 206);
+}
+
+.secondary-nav {
+    display: flex;
+    justify-content: center; /* Center the nav */
+    margin-top: 20px;
+}
+
+.secondary-nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.secondary-nav li {
+    margin: 0 175px; /* Adjust space between links as needed */
+}
+
+.secondary-nav a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.secondary-nav a:hover {
+    background-color: rgb(57, 161, 206);
+}
+
